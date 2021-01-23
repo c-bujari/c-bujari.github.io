@@ -1,0 +1,62 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	line-height: 1.3;
+	word-wrap: break-word;
+	margin: 0;
+}
+
+body>header {
+	background: #143C65;
+	color: #f8f8f2;
+	position: relative;
+	height: 7rem;
+}
+
+header>h1 {
+	position: absolute;
+	top: 1rem;
+	left: 7rem;
+	font-size: 2.2rem;
+	line-height: 3rem;
+	margin: 0;
+}
+
+header>h2 {
+	position: absolute;
+	top: 4rem;
+	left: 7rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	font-style: italic;
+	margin: 0;
+}
+
+nav {
+	position: absolute;
+	bottom: 1rem;
+	height: 2rem;
+	right: 1rem;
+	text-align: center;
+	line-height: 2rem;
+	background: #1B528B;
+}
+
+nav>a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #f8f8f2;
+	padding: 1rem;
+}
+
+nav>a:hover {
+	color: #c4c4c0;
+}
+/*.h1 {
+	color: navy;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.h2 {
+	color: navy;
+	font-family: Arial, Helevtica, sans-serif;
+}
+*/
