@@ -51,12 +51,25 @@ nav>a {
 nav>a:hover {
 	color: #c4c4c0;
 }
-/*.h1 {
-	color: navy;
-	font-family: Arial, Helvetica, sans-serif;
+
+body>h2 {
+	margin: 1rem;
 }
-.h2 {
-	color: navy;
-	font-family: Arial, Helevtica, sans-serif;
+
+#content>p, #content>h1, #content>h2, #content>h3 {
+	margin: 1rem;
 }
-*/
+#content>ul {
+	padding-left: 1.25rem;
+}
+#content>project-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+#content>project-list-header {
+	margin-bottom: 0.2rem;
+}
+.project-date {
+	font-style: italic;
+	font-size: 1rem;
+}
